@@ -3,7 +3,17 @@
   padding-bottom: 64px;
 }
 
+.floor {
+  background-color: hsl(195deg, 20%, 86%);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 40%;
+}
+
 .maxWidthWrapper {
+  isolation: isolate;
 }
 
 .header {
